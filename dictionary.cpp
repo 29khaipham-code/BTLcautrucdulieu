@@ -123,7 +123,7 @@ void Dictionary::process(int selection){
         case 3: {
             cout << "Sua tu dien"<< endl;
             string word;
-            cout <<"Nhap tu tieng anh muon sua doi"; getline ( cin >>ws ,word);
+            cout <<"Nhap tu tieng anh muon sua doi: "; getline ( cin >>ws ,word);
             Meaning* ptr =  myTable.search(word);
             if( ptr != nullptr){
                 string type ,vie;

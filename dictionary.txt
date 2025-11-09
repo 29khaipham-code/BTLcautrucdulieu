@@ -1,4 +1,5 @@
 walk,v,di bo
+watch,v,nhin
 water,n,nuoc
 speak,v,noi
 student,n,hoc sinh
@@ -23,7 +24,6 @@ write,v,viet
 eat,v,an
 learn,v,hoc
 play,v,choi
-hello,v,xin chao
 good,adj,tot
 read,v,doc
 world,n,the gioi
