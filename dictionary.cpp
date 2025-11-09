@@ -50,7 +50,7 @@ string Dictionary::lookupWord( string& eng) {
     Meaning* resultPtr = myTable.search(eng); // ham search tra ve con tro kieu Meaning
     if (resultPtr != nullptr) {
         // Định dạng chuỗi trả về
-        return ": (" + resultPtr->type + "): " + resultPtr->meaning;
+        return " (" + resultPtr->type + "): " + resultPtr->meaning;
     } else {
         return "[Khong tim thay tu nay]";
     }
@@ -97,14 +97,18 @@ void Dictionary::menu(){
     cout << "4. Xoa tu\n";
     cout << "0. Luu va Thoat\n";
     cout << "=======================================\n";
-    cout << ">>Nhap lua chon: ";
 }
 void Dictionary::process(int selection){
     switch( selection){
         case 1: {
-            string word;
-            cout <<">> Nhap tu ban muon tra: "; getline( cin >> ws , word);
-            cout <<endl<<word ; lookupWord(word);
+            while(true){
+                string word;
+                cout <<endl <<">>nhap 0 de thoat!!";
+                cout <<endl <<">> Nhap tu ban muon tra: "; getline( cin >> ws , word);
+                if ( word == "0") break;
+                cout << endl << word << lookupWord(word)<<endl;
+                
+            }
             break;
         }
         case 2: {
@@ -147,9 +151,9 @@ void Dictionary::process(int selection){
     }
 }
 void Dictionary::run(){
+    loadFromFile();
     int selection;
     do {
-        break;
         menu();
         cout << ">> Nhap Lua chon: "; cin >> selection;
         if (cin.fail()) {

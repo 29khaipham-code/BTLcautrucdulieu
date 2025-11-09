@@ -1,8 +1,31 @@
-hello,verb,xin chao
-world,noun,the gioi
-cat,noun,con meo
-dog,noun,con cho
-eat,verb,an
-beautiful,adjective,dep đe
-go,verb,di, di chuyen
-run,verb,chay
+walk,v,di bo
+water,n,nuoc
+speak,v,noi
+student,n,hoc sinh
+school,n,truong hoc
+quick,adj,nhanh
+house,n,ngoi nha
+book,n,quyen sach
+tree,n,cai cay
+fire,n,lua
+run,v,chay
+0,0,0
+sad,adj,buon
+bad,adj,xau, te
+big,adj,to lon
+cat,n,con meo
+computer,n,may tinh
+happy,adj,vui ve
+beautiful,adj,dep de
+dog,n,con cho
+teacher,n,giao vien
+write,v,viet
+eat,v,an
+learn,v,hoc
+play,v,choi
+hello,v,xin chao
+good,adj,tot
+read,v,doc
+world,n,the gioi
+small,adj,nho
+go,v,di, di chuyen

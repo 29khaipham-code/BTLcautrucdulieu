@@ -17,7 +17,7 @@ Meaning* HashTable::search(K& key){
             return  table[index].search(key);
         }
         else {
-            throw out_of_range("word not found");
+            return nullptr;
         }
             
 }
