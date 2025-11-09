@@ -1,0 +1,8 @@
+hello,verb,xin chao
+world,noun,the gioi
+cat,noun,con meo
+dog,noun,con cho
+eat,verb,an
+beautiful,adjective,dep đe
+go,verb,di, di chuyen
+run,verb,chay
